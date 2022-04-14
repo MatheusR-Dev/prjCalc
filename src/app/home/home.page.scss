@@ -1,0 +1,61 @@
+.bgCustom {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/images.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 2%;
+
+.teste {
+  width: 100%;
+  height: 60%;
+  background: rgb(17, 120, 146);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 1em rgb(0, 0, 0), 0 0 1em rgba(10, 59, 87);
+  opacity: 90%;
+  padding: 2% 5%;
+  @media (min-width: 800px) {
+    width: 750px;
+  }
+
+    > input {
+    margin-bottom: 20px;
+    width: 90%;
+    height: 40px;
+    color: white;
+    @media (min-width: 600px) {
+      width: 525px;
+    }
+  }
+
+  > label {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+
+  > h2 {
+    margin-top: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+  }
+}
+
+  
+
+  
+}
+
+
+
+

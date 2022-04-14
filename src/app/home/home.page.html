@@ -1,0 +1,16 @@
+<div class="bgCustom">
+  <div class="teste">
+    <label>Preço da Gasolina</label>
+    <input placeholder="Preço da Gasolina" type="text" [(ngModel)]="precoGasolina" (keyup)="calcCusto()">
+
+    <label>Distância</label>
+    <input placeholder="Distância" type="text" [(ngModel)]="distancia" (keyup)="calcCusto()">
+
+    <label>Consumo do Carro</label>
+    <input placeholder="Consumo do Carro" type="text" [(ngModel)]="consumo" (keyup)="calcCusto()">
+
+    <h2>Resultado</h2>
+    <h2>{{resultado}}</h2>
+  </div>
+
+</div>
